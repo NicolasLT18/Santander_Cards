@@ -1,0 +1,24 @@
+[project]
+name = "santander-cards"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Angel Nicolas Landa Tapia", email = "a01668133@tec.mx" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "plotly>=7.1.0",
+]
+
+[project.scripts]
+santander-cards = "santander_cards:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
