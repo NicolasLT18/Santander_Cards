@@ -9,6 +9,7 @@ __pycache__/
 # Excel
 .xlsx
 .csv
+data\dataset_dummy_tarjetas_santander_10000_clientes.csv.xlsx
 
 # Distribution / packaging
 .Python
