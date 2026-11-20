@@ -11,6 +11,9 @@ __pycache__/
 .csv
 data\dataset_dummy_tarjetas_santander_10000_clientes.csv.xlsx
 
+# Images
+.png
+
 # Distribution / packaging
 .Python
 build/
